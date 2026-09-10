@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="musikGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#1E90FF" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.7" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#EC4899" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle with vibrant gradient -->
+  <rect width="512" height="512" rx="128" fill="url(#musikGrad)" />
+  
+  <!-- Stylized Sound Waves & Musical Note -->
+  <g transform="translate(64, 64)" filter="url(#shadow)">
+    <!-- Equalizer / Wave Bars left -->
+    <rect x="52" y="140" width="24" height="104" rx="12" fill="#FFFFFF" opacity="0.85" />
+    <rect x="96" y="90" width="24" height="204" rx="12" fill="#FFFFFF" opacity="0.95" />
+    
+    <!-- Central Note and Play Head motif -->
+    <path d="M 170 80 
+             L 280 50 
+             C 290 47, 300 55, 300 66 
+             L 300 210 
+             C 285 200, 260 196, 235 206 
+             C 200 220, 185 252, 202 278 
+             C 219 304, 260 312, 295 298 
+             C 322 287, 336 265, 336 236 
+             L 336 106 
+             L 190 134 
+             L 190 240 
+             C 175 230, 150 226, 125 236 
+             C 90 250, 75 282, 92 308 
+             C 109 334, 150 342, 185 328 
+             C 212 317, 226 295, 226 266 
+             L 226 120 
+             C 226 95, 205 78, 170 80 Z" 
+          fill="#FFFFFF" />
+          
+    <!-- Equalizer / Wave Bars right -->
+    <rect x="360" y="120" width="24" height="144" rx="12" fill="#FFFFFF" opacity="0.95" />
+    <rect x="404" y="160" width="24" height="64" rx="12" fill="#FFFFFF" opacity="0.85" />
+  </g>
+</svg>

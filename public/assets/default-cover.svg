@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="coverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#1E90FF" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#coverGrad)"/>
+  
+  <!-- Subtle vinyl record background rings -->
+  <circle cx="250" cy="250" r="190" stroke="#334155" stroke-width="2" fill="none" opacity="0.3"/>
+  <circle cx="250" cy="250" r="150" stroke="#334155" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <circle cx="250" cy="250" r="110" stroke="#334155" stroke-width="1.5" fill="none" opacity="0.3"/>
+  
+  <!-- Center musical icon -->
+  <circle cx="250" cy="250" r="70" fill="url(#accentGrad)" opacity="0.9"/>
+  <circle cx="250" cy="250" r="22" fill="#0F172A" />
+  
+  <!-- Floating musical notes -->
+  <path d="M242 225 L242 265 C239 263 234 262 229 264 C220 268 217 278 221 285 C226 292 236 294 245 290 C252 287 255 280 255 272 L255 235 L272 230 L272 258 C269 256 264 255 259 257 C250 261 247 271 251 278 C256 285 266 287 275 283 C282 280 285 273 285 265 L285 220 Z" fill="#FFFFFF"/>
+</svg>

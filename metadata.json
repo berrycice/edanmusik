@@ -1,0 +1,6 @@
+{
+  "name": "MUSIK",
+  "description": "Personal music streaming library dengan pemutar audio modern, background playback, dan integrasi Cloudflare R2.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
